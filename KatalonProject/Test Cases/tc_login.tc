@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tc_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05d33cc4-f4da-4168-b670-a653f7196ce1</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.user</defaultValue>
+      <description></description>
+      <id>7b8176d0-a870-4b9d-bfc6-f8c238011b1b</id>
+      <masked>false</masked>
+      <name>user_id</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.password</defaultValue>
+      <description></description>
+      <id>44ab77b0-61fb-4b10-99c5-bb3b87cdd68e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('New Test Data')</defaultValue>
+      <description></description>
+      <id>c44f715d-cbc6-466d-9fba-61d8580590ef</id>
+      <masked>false</masked>
+      <name>test_data</name>
+   </variable>
+</TestCaseEntity>

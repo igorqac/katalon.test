@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>main</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>AUT url</description>
+      <initValue>'https://us.battle.net/login/en-gb/'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>user name</description>
+      <initValue>'uft_developer_acc@outlook.com'</initValue>
+      <name>user</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>user password</description>
+      <initValue>'df0fi98&amp;&amp;dwkd4'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>encrypted password</description>
+      <initValue>'7eJW5Iv4jMhpBgnj/BnZQQ=='</initValue>
+      <name>encrypted_password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
