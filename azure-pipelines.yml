@@ -1,4 +1,5 @@
 # Starter pipeline
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -12,6 +13,11 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+
+- task: katalonTask@0
+  inputs:
+    version: '7.8.1'
+    executeArgs: '-retry=0 -testSuitePath="Test Suites/Suite1" -executionProfile="main" -browserType="Chrome" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
