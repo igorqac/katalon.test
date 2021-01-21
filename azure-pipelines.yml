@@ -17,7 +17,7 @@ steps:
 - task: katalonTask@0
   inputs:
     version: '7.8.1'
-    executeArgs: '-retry=0 -testSuitePath="Test Suites/Suite1" -executionProfile="main" -browserType="Chrome" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true'
+    executeArgs: '-retry=0 -testSuitePath="Test Suites/Suite1" -executionProfile="main" -browserType="Chrome" -apikey="c46c0fe2-7f44-4171-b25f-cb2caa55d46e"
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
